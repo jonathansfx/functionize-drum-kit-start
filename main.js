@@ -1,6 +1,4 @@
 // DRUM KIT (Modified Wes Bos JS30 Challenge)
-let 
-
 
 // Listen for key events on the page
 document.addEventListener("keydown", processKeyDown);
@@ -54,8 +52,6 @@ document.getElementById("L").addEventListener("transitionend", removePlaying);
 function removePlaying(event) {
   event.target.classList.remove("playing");
 }
-
-
 
 function playKey(key, sound) {
   let audio = document.getElementById(`${sound}`);
